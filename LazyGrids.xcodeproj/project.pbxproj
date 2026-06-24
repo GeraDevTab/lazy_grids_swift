@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB40C0732FEC0E55001F53DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB40C0722FEC0E50001F53DF /* README.md */; };
 		CB514F622FEA42C700E05D26 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CB514F612FEA42C200E05D26 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB40C0722FEC0E50001F53DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB514F482FEA2FCB00E05D26 /* LazyGrids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyGrids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB514F612FEA42C200E05D26 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		CB40C06E2FEC0DF2001F53DF /* assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = assets;
+			sourceTree = "<group>";
+		};
 		CB514F4A2FEA2FCB00E05D26 /* LazyGrids */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LazyGrids;
@@ -37,6 +44,8 @@
 		CB514F3F2FEA2FCB00E05D26 = {
 			isa = PBXGroup;
 			children = (
+				CB40C0722FEC0E50001F53DF /* README.md */,
+				CB40C06E2FEC0DF2001F53DF /* assets */,
 				CB514F612FEA42C200E05D26 /* .gitignore */,
 				CB514F4A2FEA2FCB00E05D26 /* LazyGrids */,
 				CB514F492FEA2FCB00E05D26 /* Products */,
@@ -67,6 +76,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				CB40C06E2FEC0DF2001F53DF /* assets */,
 				CB514F4A2FEA2FCB00E05D26 /* LazyGrids */,
 			);
 			name = LazyGrids;
@@ -115,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB40C0732FEC0E55001F53DF /* README.md in Resources */,
 				CB514F622FEA42C700E05D26 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
